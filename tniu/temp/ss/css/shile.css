@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+body{font-family: "微软雅黑"; background-image: url(../img/背景01.png);background-size: cover;background-repeat: no-repeat;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	
+	-moz-tap-highlight-color:rgba(0,0,0,0); 
+	-moz-text-size-adjust: none;
+	-moz-font-smoothing: antialiased;
+	
+	-ms-tap-highlight-color:rgba(0,0,0,0); 
+	-ms-text-size-adjust: none;
+	-ms-font-smoothing: antialiased;}
+@media screen and (max-width : 320px ){body {font-size: 8px;} }
+@media screen and (min-width : 320px ) and (max-width : 480px ){body {font-size: 8px;} }
+@media screen and (min-width: 480px) and (max-width: 640px) {body {font-size: 14.5px;} }
+@media screen and (min-width: 640px) and (max-width: 720px) {body {font-size: 21px;}}
+@media screen and (min-width: 720px) and (max-width: 960px){body {font-size: 24px;}}
+@media screen and (min-width: 960px) {body {font-size: 33.5px;}}
+ 
+
+
+
+.viewport{ overflow:hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	 z-index:888; 
+	}
+
+.center{margin-top: 2rem;}
+.new{
+	margin-left: 2rem;
+	margin-right: 2rem;
+	padding-top: 0.625em;
+	padding-right: 0.625em;
+	padding-left: 0.625em;
+	padding-bottom: 0.625em;
+	border-radius: 12px;
+	background-color: rgba(255,255,255,0.5);
+}
+#new1{border-radius: 8px; height:3em;}
+.re{
+	background-color: #d90000;
+	padding-top: 0.625em;
+	padding-bottom: 0.625em;
+}
+.gree{background-color:#008000;}
+.one,.two,.three,.four{
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
+.one{
+	width: 24%;
+	/*width: 9.625rem;*/
+	text-align: center;
+	height: 2.5em;
+	line-height: 1.25em;
+	float: left;
+	padding-top: 0.2em;
+    }
+.shang{
+	display: block;
+	margin-bottom: 0.3rem;
+	font-size: 1em;
+}
+.xia{
+	display: inline-block;
+	font-size: 1em;
+}
+.two{
+	font-size: 2.0em;
+	text-align: center;
+	width: 36%;
+	float: left;
+	border-left: 1px solid #FFFFFF;
+	line-height: 1.6em;
+}
+.three{
+	font-size: 1.1em;
+	text-align: center;
+	width: 19%;
+	float: right;
+	line-height: 2.5em;
+	padding-top: 0.2em;
+}
+.four{
+	font-size: 1.1em;
+	text-align: center;
+	width: 19%;
+	float: right;
+	line-height: 2.5em;
+	padding-top: 0.2em;
+	padding-right: 0.3em;
+}
+/*最新指数结束*/
+
+.jing{
+	display: block;
+	text-align: center;
+	color: red;
+	font-size: 1em;
+	margin-top: 1.2rem;
+}
+.tim{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 4em;
+}
+.le,.ri{font-size: 1.8em;color: black;}
+.daoji{
+	color: white;
+	display: inline-block;
+	line-height: 1.0em;
+	background-color: #d4145a;
+	border-radius: 0.25em;
+	font-size: 3.6em;
+	margin-top: 1.3rem;
+	margin-left: 1.3rem;
+	padding: 0.25em;
+	margin-right: 1.3rem;
+}
+/*下注时间结束*/
+
+.guess{
+	margin-left: 3rem;
+	margin-right: 3rem;
+	height: 1.8em;
+	line-height: 1.8em;
+	font-size: 1.2em;
+	margin-top: 4.0rem;
+	border-radius: 0.625em;
+	background-color: rgba(255,255,255,0.5);
+}
+.die{color: #333333;}
+.red{color: red;}
+.lef{float:left;}
+.righ{float:right;}
+.lef{margin-left:2rem;}
+.righ{margin-right:2rem;}
+/*猜中结束*/
+
+.ul{
+	display: block;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-top: 0.6rem;
+	text-align: center;
+	height: auto;
+	overflow: hidden;
+}
+#ul li{
+	display: block;
+	width: 4.9em;
+	height: 7.5em;
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	margin-right: 0.5rem;
+	margin-top: 1.2rem;
+	border-radius: 0.625em;
+	margin-left: 0.5rem;
+}
+#ul li:hover{cursor:pointer;}
+.ulimg{
+	display: block;
+	width: 4.9em;
+	height: 4.9em;
+	margin-top: 0.6rem;
+}
+#ul li:nth-child(5){ margin-right:0rem; } 
+#ul li:nth-child(10){ margin-right:0rem; } 
+.ulspan{
+	font-size: 1.0em;
+	display: block;
+	text-align: center;
+}
+/*ul结束*/
+
+.hong{background-color:#D90000;color:#fff;}
+.hui{
+	background-color: #DDDDDD;
+	color: #777;
+	float: right;
+}
+.xiazhu{
+	width: 18em;
+	height: 3.6em;
+	margin-top: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3.6em;
+	text-align: center;
+}
+#zuo,#you{
+	width: 6.1em;
+	height: 2.5em;
+	line-height: 2.5em;
+	border-radius: 0.5em;
+	text-align: center;
+	float: right;
+	font-size: 1.2em;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+#zuo:hover,#you:hover{ cursor:pointer;}
+#zuo{float: left;}
+/*中间结束*/
+
+.footer{ position:relative; width:auto; height:auto; overflow:hidden; color:red ; margin:0 auto; text-align:center; margin-top:10rem;}
+.foospan{ position:absolute;bottom:1rem;left:36%; font-size: 0.7em;display:inline;}
+/*.yuce{float: right; }*/
+.fooimg{width:5em;height:5em;margin-bottom: 1rem; display:inline;margin-right:1rem; float:right;}
+.fooimg img{width:5em;height:5em;}
+/*底部结束*/
+
+#zhezhao{margin: 0 auto; display:block; background-color:rgba(0,0,0,0.5);position:absolute;  top:0px;left:0px; z-index:8888; vertical-align:middle;  /*transition: ease-in, 1s;*/}
+/*遮罩结束*/
+#zhezhao div{ position:absolute; top:30%; left:30%; width:9.0em;height: 3em;line-height: 3em;font-size: 1.5em; margin:0 auto; text-align:center; background-color:white; border-radius:10px; vertical-align:middle;}
+.jian{ display:none; color:#FF9900;}
+.buzu{display:none; color:#999999;}
+.over{ display:none; color:#999999;}
+.nostart{ display:none; color:#999999;}
+/*.close{display:none; width:1em;height:1em; line-height:1em; text-align:center; font-size:5rem;border-radius:15px;color:white;}
+.close:hover{cursor:pointer;}*/

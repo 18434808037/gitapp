@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var u = navigator.userAgent;
+			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+			var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			if(isiOS) {    //IOS
+				window.location.href="https://itunes.apple.com/cn/app/id1144854482";
+			} else {       //Android
+				window.location.href="http://www.51tniu.com/tniu.apk";
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

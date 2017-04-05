@@ -1,0 +1,246 @@
+body, h1, h2, h3, p, dl, dd, ol, ul, th, td, form, fieldset, input, button, textarea{margin: 0; padding: 0;}
+html{-webkit-text-size-adjust: none; word-wrap: break-word;}
+h1, h2, h3{font-size: 100%;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0; empty-cells: show; font-size: inherit;}
+fieldset, img{border: 0;}
+cite, em, s, i, b{font-style: normal;}
+input, button, textarea, select{font-size: 100%;}
+body, input, button, textarea, select, option{font-size: normal;}
+body{
+	background-color: #f2f2f2;
+}
+a, input, textarea{text-decoration: none; outline: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+li, img, label, input{vertical-align: middle;}
+var{font-style: normal;}
+ins{text-decoration: none;}
+body{font-size: 20px;}
+.viewport{max-width: 720px; margin: auto; overflow: hidden;}
+.b img{vertical-align: top;}
+.b1, .b2, .b3, .b4, .b5{position: relative;overflow: hidden;}
+.b1{background-color: #FFFFFF;min-height: 500px;}
+.b1 img{width: 100%;}
+.b1 .words{position: absolute;left:0;top:0;z-index: 1;}
+@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}
+@keyframes rotate{0%{transform:rotate(0deg);}0%{transform:rotate(360deg);}}
+@-webkit-keyframes bounceIn{0%{opacity: 0;-webkit-transform: scale(.3);}50%{opacity: 1;-webkit-transform: scale(1.05);}70%{-webkit-transform: scale(.9);}100%{-webkit-transform: scale(1);}}
+@keyframes bounceIn{0%{opacity: 0;transform: scale(.3);}50%{opacity: 1;transform: scale(1.05);}70%{transform: scale(.9);}100%{transform: scale(1);}}
+@-webkit-keyframes zoomOut{0%{-webkit-transform: scale(.3); opacity: 1;} 100%{-webkit-transform: scale(1); opacity: 0;}}
+@keyframes zoomOut{0%{transform: scale(.3); opacity: 1;} 100%{transform: scale(1); opacity: 0;}}
+@media only screen and (max-width: 319px){body{font-size: 12px;} .viewport{max-width: 320px;}}
+@media only screen and (max-width: 479px) and (min-width: 320px){body{font-size: 12px;} .viewport{max-width: 480px;}}
+@media only screen and (max-width: 639px) and (min-width: 480px){body{font-size: 16px;} .viewport{max-width: 640px;}}
+@media only screen and (max-width: 719px) and (min-width: 640px){body{font-size: 24px;} .viewport{max-width: 720px;}}
+@media only screen and (min-width: 720px){body{font-size: 24px;} .viewport{max-width: 720px;}}
+.kop01 {
+	width: 100%;
+	height: 2.85em;
+	color: #FFFFFF;
+	font-family: "Droid Sans Fallback";
+	font-size: 1.16em;
+	background-color: #00A3FF;
+	line-height: 2.85em;
+	text-align: left;
+	padding-left: 1em;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.hk1 {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.hk1 ul li {
+	width: 25%;
+	background-image: url(img/di.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+.hk1 .fr li {
+	background-color: #FFFFFF;
+	height: 3em;
+	text-align: center;
+	font-family: "Droid Sans Fallback";
+	color: #777777;
+	line-height: 3em;
+	font-size: 0.8em;
+	float: left;
+	display: block;
+}
+.hk1 .ty li {
+	height: 3.9em;
+	text-align: center;
+	font-family: "Droid Sans Fallback";
+	color: #FFFFFF;
+	line-height: 3.9em;
+	font-size: 0.8em;
+	float: left;
+	display: block;
+}
+.bf1 {
+	background-color: #D90000;
+}
+.bf2 {
+	background-color: #009245;
+}
+.mvx {
+	width: 80%;
+	padding-top: 2em;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	background-image: url(img/vs0.png);
+	background-position: center 2em;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: auto 80%;
+}
+.mvx .ol1 {
+	height: 4em;
+	width: 36%;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 2.2em;
+	text-align: center;
+	font-family: "Droid Sans Fallback";
+	font-size: 1em;
+	color: #777777;
+	line-height: 1.5em;
+	padding-top: 0.8em;
+}
+.mvx .ol3 {
+	height: 4em;
+	width: 36%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 2.2em;
+	text-align: center;
+	font-family: "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #777777;
+	padding-top: 0.8em;
+}
+.uuc {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: "Droid Sans Fallback";
+	color: #777777;
+	font-size: 0.8em;
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+.uuc span {
+	color: #FF0000;
+
+}
+.bgk {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 3em;
+	overflow: hidden;
+}
+.bgk .vk1 {
+	width: 42%;
+	height: 5.2em;
+	background-color: #D90000;
+	float: left;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	font-family: "Droid Sans Fallback";
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.7em;
+	padding-top: 1.8em;
+	font-size: 1.1em;
+}
+.bgk .vk2 {
+	width: 42%;
+	height: 5.2em;
+	background-color: #009245;
+	float: right;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	font-family: "Droid Sans Fallback";
+	line-height: 1.7em;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 1.8em;
+	font-size: 1.1em;
+}
+.viewport .bgk .vss {
+	background-image: url(img/vs1.png);
+	width: 6.6em;
+	height: 6.6em;
+	background-repeat: no-repeat;
+	background-position: center top;
+	opacity: 1;
+	top: -6.8em;
+	z-index: 99;
+	position: relative;
+	background-size: 100% 100%;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ttsx {
+	color: #FFFFFF;
+	font-family: "Droid Sans Fallback";
+	font-size: 2em;
+}
+.fgx {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+.fgx .cvx1 {
+	width: 27%;
+	height: auto;
+	text-align: right;
+	font-family: "Droid Sans Fallback";
+	font-size: 1.6em;
+	color: #D90000;
+	padding-right: 1.2em;
+	background-image: url(img/Tb.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: auto 70%;
+	float: left;
+}
+.fgx .cvx2 {
+	width: 27%;
+	height: auto;
+	text-align: left;
+	font-family: "Droid Sans Fallback";
+	font-size: 1.6em;
+	color: #009245;
+	background-image: url(img/Tb.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 70%;
+	float: right;
+	padding-left: 1.2em;
+}
+#fx2s  {
+	width: 5em;
+	height: 5.2em;
+	float: right;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+#fx2s a {
+	background-image: url(img/yuc.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: left top;
+	background-size: 100% 100%;
+}

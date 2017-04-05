@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<title>天牛财经</title>
+		<!--Adobe Edge Runtime-->
+		<style>
+			.edgeLoad-EDGE-11195565 {
+				visibility: hidden;
+			}
+			
+			.edgeLoad-EDGE-16971160 {
+				visibility: hidden;
+			}
+			
+			.edgeLoad-EDGE-3200493 {
+				visibility: hidden;
+			}
+			
+			.edgeLoad-EDGE-84787 {
+				visibility: hidden;
+			}
+		</style>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+		<script>
+		AdobeEdge.loadComposition('an01', 'EDGE-11195565', {
+					scaleToFit: "none",
+					centerStage: "none",
+					minW: "0px",
+					maxW: "undefined",
+					width: "1280px",
+					height: "800px"
+				}, {
+					"style": {
+						"${symbolSelector}": {
+							"isStage": "true",
+							"rect": ["undefined", "undefined", "1280px", "800px"],
+							"fill": ["rgba(255,255,255,1)"]
+						}
+					},
+					"dom": {}
+				}, {
+					"dom": {}
+				});
+			$(function() {
+				var a = 0;
+				window.onscroll = function() {
+
+					var st = window.pageYOffset || document.body.scrollTop ||  document.documentElement.scroolTop;
+					if(st > a) {
+						if((st >= 550) && (typeof($("#Stage2").attr("class")) == "undefined")) {
+							$("#Stage2").attr("class", "EDGE-16971160");
+							AdobeEdge.loadComposition('an02', 'EDGE-16971160', {
+								scaleToFit: "none",
+								centerStage: "none",
+								minW: "0px",
+								maxW: "undefined",
+								width: "1280px",
+								height: "900px"
+							}, {
+								"dom": {}
+							}, {
+								"dom": {}
+							});
+						} else if((st >= 1650)&&(typeof($("#Stage3").attr("class")) == "undefined")) {
+							$("#Stage3").attr("class", "EDGE-3200493");
+							AdobeEdge.loadComposition('an03', 'EDGE-3200493', {
+								scaleToFit: "none",
+								centerStage: "none",
+								minW: "0px",
+								maxW: "undefined",
+								width: "1280px",
+								height: "900px"
+							}, {
+								"dom": {}
+							}, {
+								"dom": {}
+							});
+						} else if((st >= 2350) && (typeof($("#Stage4").attr("class")) == "undefined")) {
+							$("#Stage4").attr("class", "EDGE-84787");
+							AdobeEdge.loadComposition('an04', 'EDGE-84787', {
+								scaleToFit: "none",
+								centerStage: "none",
+								minW: "0px",
+								maxW: "undefined",
+								width: "1280px",
+								height: "900px"
+							}, {
+								"dom": {}
+							}, {
+								"dom": {}
+							});
+
+							$("#dw").css("display", "block");
+							$("#dw").fadeIn("fast");
+						}
+					}
+					a = st;
+					//console.log(EdgeID2.offsetTop);
+				}
+			}); 
+		</script>
+
+		<!--Adobe Edge Runtime End-->
+		<link href="tniu_style.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body bgcolor="#ffffff">
+		<div>
+					<div id="nv"><div class="nvw">
+						<div class="logo"><img src="img/logo4.svg" alt="" width="200" height="66" /></div>
+						<div class="nvss">
+							<ol>
+								<li>
+									<a class="click" href="index.html">首页</a>
+								</li>
+								<li>
+									<a href="about_us.html">关于我们</a>
+								</li>
+								<li>
+									<a href="contact_us.html">联系我们</a>
+								</li>
+								<li>
+									<a href="job.html">招贤纳士</a>
+								</li>
+							</ol>
+						</div></div>
+					</div>
+					<div id="mok1">
+						<div class="vcb1">
+							<div id="Stage1" class="EDGE-11195565"></div>
+						#FFD0AD						</div>
+					</div>
+
+				<div id="mok2">
+					<div class="vcb3">
+						<div id="Stage2"></div>
+					</div>
+				</div>
+
+				<div id="mok3">
+					<div class="vcb2">
+						<div id="Stage3" ></div>
+					</div>
+				</div>
+
+				<div id="mok4">
+					<div class="vcb2">
+						<div id="Stage4"></div>
+					</div>
+				</div>
+
+		</div>
+				<div id="dw">版权所有 © 上海爵星网络科技有限公司 沪ICP备16025758号-1 投资有风险 · 购买需谨慎<br> 地址：上海市 · 延安西路1160号 · 首信银都 · 15楼<br> Zip:200052 Tel / Fax:021-62311915</div>
+	</body>
+
+</html>
